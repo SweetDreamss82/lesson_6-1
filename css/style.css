@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,700italic,900,900italic&display=swap);
+
+@font-face {
+	font-family: "TrebuchetMS";
+	src: url("../fonts/TrebuchetMS.woff2") format("woff2"),
+		url("../fonts/TrebuchetMS.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "TrebuchetMS";
+	src: url("../fonts/TrebuchetMS-Italic.woff2") format("woff2"),
+		url("../fonts/TrebuchetMS-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "TrebuchetMS";
+	src: url("../fonts/TrebuchetMS-Bold.woff2") format("woff2"),
+		url("../fonts/TrebuchetMS-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "TrebuchetMS", sans-serif;
+	font-size: 20px;
+	max-width: 1180px;
+	padding: 0 10px;
+	margin: 0 auto;
+	line-height: 1.6;
+}
+
+.header-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 65px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #373a39;
+	letter-spacing: 0.6px;
+}
+
+.header-text {
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 30px;
+	border: 2px solid red;
+	margin-bottom: 20px;
+}
+
+.items {
+	border: 3px dashed lawngreen;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.items p {
+	display: block;
+	max-width: 42%;
+	margin: 0 auto;
+}
+
+.item-top {
+	border-top: 4px solid green;
+}
+
+.item-right {
+	border-right: 4px solid gold;
+}
+
+.item-bottom {
+	border-bottom: 4px solid blueviolet;
+}
+
+.item-left {
+	border-left: 4px solid indigo;
+}
+
+.list {
+	display: block;
+	max-width: 55%;
+	border: 3px dotted red;
+	color: rgba(38, 101, 266, 35);
+	text-shadow: 3px 1px 7px #ff0000;
+	padding-left: 15px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+ul ul {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 15px;
+	color: blue;
+	text-shadow: 3px 1px 7px green;
+	text-decoration: underline;
+	text-transform: capitalize;
+	opacity: 0.3;
+	padding-left: 30px;
+	letter-spacing: 0.6px;
+}
+
+.title {
+	display: inline-block;
+	min-width: 15%;
+	border-radius: 20px 0 10px;
+	border: 5px solid rgba(38, 101, 266, 35);
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.desc {
+	margin-bottom: 20px;
+}
+
+li a {
+	color: red;
+}
+
+.through {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	text-decoration: line-through;
+}
+
+.overline {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	text-decoration: overline;
+}
+
+.underline {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.dashed {
+	text-decoration: underline dashed;
+}
+
+.underline-overline {
+	font-family: "Roboto", sans-serif;
+	text-decoration: underline overline;
+}
+
+.block {
+	margin-bottom: 20px;
+}
+
+.title-2 {
+	display: block;
+	border: none;
+	text-align: right;
+}
+
+.block-img {
+	display: block;
+	width: 400px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block-text {
+	text-align: justify;
+	text-transform: lowercase;
+}
+
+.scroll {
+	max-height: 250px;
+	padding-bottom: 30px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.hidden {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 0 0 auto
+}
+
+.outline {
+	display: block;
+	max-width: 100%;
+	padding: 10px;
+	border-radius: 0 20px 0;
+	outline: 10px solid red;
+	margin: 20px 10px;
+}
+
+.circle {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.circle-box {
+	width: 100%;
+	max-width: 410px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.circle-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 8px solid green;
+	box-shadow: 0 0 16px red;
+}
+
+.circles-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 8px solid red;
+	box-shadow: 0 0 16px green;
+}
+
+.circle-text {
+	text-align: left;
+}
